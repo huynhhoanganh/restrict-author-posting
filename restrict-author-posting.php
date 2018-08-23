@@ -129,8 +129,8 @@ function restrict_user_form( $user ) {
 
 	</table>
 	<script>
-		var $jq = jQuery.noConflict(true);
-		$jq('select#allow').multipleSelect();
+		//var $jq = jQuery.noConflict(true);
+		jQuery('select#allow').multipleSelect();
 	</script>
 <?php 
 }
